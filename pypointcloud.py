@@ -17,3 +17,7 @@ def filter(matrix):
 def imageToCloud(directory):
 	img = cv2.imread(directory)
 	return depthToCloud(img.shape)
+
+def saveToPcd(matrix):
+	#TODO
+
